@@ -12,7 +12,7 @@ public abstract class Usuario implements Exibivel {
 
     public abstract int getLimiteEmprestimos();
 
-    public abstract int getPrazoDevolução();
+    public abstract int getPrazoDevolucao();
 
     public abstract double getValorMultaDiaria();
 
