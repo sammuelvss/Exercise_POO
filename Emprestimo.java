@@ -54,4 +54,9 @@ public class Emprestimo implements Exibivel, CalculavelMulta {
     public LocalDate getDataRealDevolucao() {
         return dataRealDevolucao;
     }
+
+    public boolean isFinalizado() {
+
+        return this.dataRealDevolucao != null;
+    }
 }

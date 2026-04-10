@@ -10,7 +10,7 @@ public class Aluno extends Usuario {
     }
 
     @Override
-    public int getPrazoDevolução() {
+    public int getPrazoDevolucao() {
 
         return 7;
     }
